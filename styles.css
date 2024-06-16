@@ -16,7 +16,7 @@ body
     grid-template-rows: 1fr 1fr;
     row-gap: 10px;
     border-radius: 10px;
-
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.125);
     background-color: #bceeed;
     
 }
@@ -24,6 +24,8 @@ h1
 {
     font-size: 50px;
     font-family:cursive;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.314);
+
 }
 .txt
 {
@@ -70,7 +72,7 @@ input
     font-size:15px;
     font-weight: 700;
     background-color: #ffc0785e;
-
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.051);
 }
 .hint
 {
@@ -84,6 +86,7 @@ input
     font-weight: 600;
     border: 1px solid black;
     text-wrap:wrap;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.125);
 }
 .error
 {
@@ -91,5 +94,6 @@ input
     font-size: 30px;
     font-weight:600;
     color:red;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.147);
 
 }
